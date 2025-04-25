@@ -1,8 +1,8 @@
 """
 Author: Moises Hernandez
 Date: 04/25/2025
-Assignment: Module6 Project Status Report II
-Short Desc:The HBS application is designed to simplify and streamline the payment and transfer process
+Assignment: Module 6 Project Status Report II
+Short Desc: The HBS application is designed to simplify and streamline the payment and transfer process
 for bank customers. It would provide a user-friendly interface that addresses common difficulties experienced
 by older adults and those less familiar with digital banking technology.
 """
@@ -10,14 +10,11 @@ by older adults and those less familiar with digital banking technology.
 import tkinter as tk
 from tkinter import messagebox
 
-# ---------------------------
 # HBS - Horizon Banking Services
 # Initial GUI Setup
-# ---------------------------
 
 # This module initializes the GUI for the HBS application including login and dashboard windows.
 
-# Callback Functions
 def login():
     if not username_entry.get() or not password_entry.get():
         messagebox.showerror("Input Error", "Username and password cannot be empty.")
